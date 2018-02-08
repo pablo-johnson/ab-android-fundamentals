@@ -8,9 +8,9 @@ Android Bootcamp - Android Fundamentals
 
 - Android Studio (2h) 
 
- - Gradle
- - Android Studio
- 
+  - Gradle
+  - Android Studio
+  
 - User Interface (4h)
 
   - Layout y Widgets
