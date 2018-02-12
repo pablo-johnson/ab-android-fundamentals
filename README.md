@@ -19,9 +19,9 @@ Revisar los screenshots o en el [link](https://developer.android.com/training/ba
 ## 3. Trabaja sobre un proyecto base (template)
 
 Todo el curso se va realizar con un proyecto template, con esto garantizamos que trabajemos sobre la misma configuración.
-Abrir desde Android Studio el proyecto "BxTemplate"
+Abrir desde Android Studio el proyecto "AppTemplate"
 
-File -> Open -> template/BxTemplate
+File -> Open -> templates/AppTemplate
 
 ## 4. Explora el entorno de desarrollo y revisa la estructura del proyecto
 
@@ -85,7 +85,7 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.belatrix.bxtemplate"
+        applicationId "com.androidbootcamp.androidtemplate"
 
         //minSdkVersion 15
         minSdkVersion rootProject.ext.minSdkVersion
