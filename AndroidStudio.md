@@ -7,7 +7,9 @@ Android Bootcamp - Android Fundamentals
 
 - Entorno de Desarrollo (Android Studio)
 
-- Construir nuestra primera App en Android
+- Ejercicios
+
+- Construir nuestra  App en Android
 
 ### Android
 
@@ -74,8 +76,39 @@ Android Bootcamp - Android Fundamentals
 
   ![img](https://developer.android.com/studio/images/write/new-resource-dir_2-2_2x.png)
 
+### Ejercicios
 
-### Construir nuestra primera App en Android
+- Ejercicio I : Dibujar la siguiente interface y programar para que cuando toques el botón muestre un texto prefefinido.
+
+![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E1.jpg?raw=true)
+
+En este ejercicio veremos como usar los elementos del folder values
+```java
+		res/value
+			- colors.xml
+			- strings.xml
+			- styles.xml
+```
+Usaremos la actividad llamada TextActivity
+
+
+- Ejercicio II : Dibujar la siguiente interface y programar para que cuando toques el boton carge una imagen predefinida.
+![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E2.jpg?raw=true)
+
+En este ejercicio veremos como usar los folder para imágenes y logos
+```java
+		res/value
+			- drawable/
+			- mipmap/
+```
+Usaremos la actividad llamada ImageActivity
+
+- Ejercicio III : Dibujar la siguiente interface y programar para que cuando toques el boton muestre el texto ingresado por el usuario.
+![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E3.jpg?raw=true)
+
+En este ejercicio veremos como usar capturar los valores ingresados por el usuario en una caja de texto llamada 'EditText'
+
+### Construir nuestra App en Android
 
 - Diseñando nuestras interfaces
 
@@ -83,12 +116,61 @@ Android Bootcamp - Android Fundamentals
 
   ![img](https://developer.android.com/studio/images/write/layout-editor-callouts_2x.png)
 
+  Vamos a crear 2 activities :
+
+![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E4-1.jpg?raw=true) ![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E4-2.jpg?raw=true)
+
+  - WriteMessageActivity
+  - MessageActivity
+
 - Agregar acciones a la UI
+
+	Para agregar una acción a botón, escribimos lo siguiente:
+
+```java
+	button.setOnClickListener(new View.OnClickListener() {
+	            @Override
+	            public void onClick(View view) {
+	                //action
+	            }
+	        });
+```
+
+	Para capturar lo que usuario escribe , en un EditText
+
+```java
+	String userMessage= editText.getText().toString().trim();
+```
+
+	Para mostrar un mensaje en la pantalla o la consola
+
+```java
+
+	 private void showMessage(String message){
+        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
+        Log.v("CONSOLE",message);
+    }
+```
 
 - Navegar entre pantallas
 
-- Ejecutar nuesta App
+  Usamos el siguiente método para navegar desde WriteMessageActity a 
+  MessageActivity y enviámos el mensaje ingresado por el usuario.
 
+```java
+   private void goToBundleMessageActivity(String message){
+
+        Bundle bundle= new Bundle();
+        bundle.putString("MESSAGE",message);
+        Intent intent= new Intent(this,MessageActivity.class);
+        intent.putExtras(bundle);
+        startActivity(intent);
+    }
+```
+
+- Ejecutar nuestra App
+
+  Run/ Run 'app'
 
 Si ya conoces esta parte, te recomiendo seguir el training oficial de Android en este link https://developer.android.com/training/index.html
 

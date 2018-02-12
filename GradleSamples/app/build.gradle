@@ -18,6 +18,11 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        def Properties myProps = new Properties()
+        myProps.load(new FileInputStream(file('../signing.properties')))
+        debug{
+            buildConfigField "String", "STORE_FILE",myProps['STORE_FILE']
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
