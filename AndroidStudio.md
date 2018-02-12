@@ -84,7 +84,7 @@ Android Bootcamp - Android Fundamentals
 
 En este ejercicio veremos como usar los elementos del folder values
 ```java
-		res/value
+		res/values
 			- colors.xml
 			- strings.xml
 			- styles.xml
@@ -93,17 +93,19 @@ Usaremos la actividad llamada TextActivity
 
 
 - Ejercicio II : Dibujar la siguiente interface y programar para que cuando toques el boton carge una imagen predefinida.
+
 ![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E2.jpg?raw=true)
 
 En este ejercicio veremos como usar los folder para imágenes y logos
 ```java
-		res/value
+		res/values
 			- drawable/
 			- mipmap/
 ```
 Usaremos la actividad llamada ImageActivity
 
 - Ejercicio III : Dibujar la siguiente interface y programar para que cuando toques el boton muestre el texto ingresado por el usuario.
+
 ![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E3.jpg?raw=true)
 
 En este ejercicio veremos como usar capturar los valores ingresados por el usuario en una caja de texto llamada 'EditText'
@@ -118,10 +120,12 @@ En este ejercicio veremos como usar capturar los valores ingresados por el usuar
 
   Vamos a crear 2 activities :
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E4-1.jpg?raw=true) ![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E4-2.jpg?raw=true)
-
   - WriteMessageActivity
   - MessageActivity
+
+![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E4-1.jpg?raw=true) ![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/basic/AndroidStudio-E4-2.jpg?raw=true)
+
+
 
 - Agregar acciones a la UI
 
@@ -136,13 +140,15 @@ En este ejercicio veremos como usar capturar los valores ingresados por el usuar
 	        });
 ```
 
-	Para capturar lo que usuario escribe , en un EditText
+
+Para capturar lo que usuario escribe , en un EditText
 
 ```java
 	String userMessage= editText.getText().toString().trim();
 ```
 
-	Para mostrar un mensaje en la pantalla o la consola
+
+Para mostrar un mensaje en la pantalla o la consola
 
 ```java
 
@@ -154,8 +160,7 @@ En este ejercicio veremos como usar capturar los valores ingresados por el usuar
 
 - Navegar entre pantallas
 
-  Usamos el siguiente método para navegar desde WriteMessageActity a 
-  MessageActivity y enviámos el mensaje ingresado por el usuario.
+Usaremos el siguiente método para navegar desde WriteMessageActity a MessageActivity y enviámos el mensaje ingresado por el usuario.
 
 ```java
    private void goToBundleMessageActivity(String message){
@@ -165,6 +170,16 @@ En este ejercicio veremos como usar capturar los valores ingresados por el usuar
         Intent intent= new Intent(this,MessageActivity.class);
         intent.putExtras(bundle);
         startActivity(intent);
+    }
+```
+
+Para recibir el valor enviado desde la primera actividad
+
+```java
+    private void extras() {
+        if(getIntent()!=null && getIntent().getExtras()!=null){
+            message= getIntent().getExtras().getString("MESSAGE");
+        }
     }
 ```
 
