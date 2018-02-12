@@ -1,33 +1,12 @@
 # ab-android-fundamentals
 Android Bootcamp - Android Fundamentals
 
-## Temario
+### Android Studio (2h) 
 
-- Fundamentals (4h)
+  - Gradle [link]("Gradle.md")
 
-  - Android Components
-  - Activity, Services, Broadcast Receiver, Content Providers
+  - Android Studio [link]("AndroidStudio.md")
 
-- Android Studio (2h) 
-
-  - Gradle
-  - Android Studio
-  
-- User Interface (4h)
-
-  - Layout y Widgets
-  - User Events
-  
-- RecyclerView y Adapters (4h)
-
-  - Basic Adapters
-  - Custom Adapters
-  
-- Fragments Fundamentals (3h)
-
-- Notifications (2h)
-
-- Project Presentation I (1h)
 
 ## Referencias
 
