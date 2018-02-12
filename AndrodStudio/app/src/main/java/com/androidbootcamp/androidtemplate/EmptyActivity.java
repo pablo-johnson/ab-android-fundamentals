@@ -23,4 +23,11 @@ public class EmptyActivity extends AppCompatActivity {
             }
         });
      */
+
+    /*
+    private void showMessage(String message){
+        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
+        Log.v("CONSOLE",message);
+    }
+     */
 }
