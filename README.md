@@ -3,9 +3,9 @@ Android Bootcamp - Android Fundamentals
 
 ### Android Studio (2h) 
 
-  - Gradle [link]("Gradle.md")
+  - Gradle [link](Gradle.md)
 
-  - Android Studio [link]("AndroidStudio.md")
+  - Android Studio [link](AndroidStudio.md)
 
 
 ## Referencias
