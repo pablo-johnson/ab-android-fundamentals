@@ -25,20 +25,6 @@ android {
     }
 }
 
-
-def Properties props = new Properties()
-def propFile = new File('signing.properties')
-if(propFile.canRead()){
-    props.load(new FileInputStream(propFile))
-    println '############ properties #############'
-    println 'STORE_FILE '+props['STORE_FILE']
-    println 'STORE_PASSWORD '+props['STORE_PASSWORD']
-    println 'KEY_ALIAS '+props['KEY_ALIAS']
-    println 'KEY_PASSWORD '+props['KEY_PASSWORD']
-    println '############ properties ############'
-}
-
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
@@ -54,16 +40,8 @@ dependencies {
     implementation "com.android.support.constraint:constraint-layout:$constraintLayoutVersion"
 
     //testImplementation 'junit:junit:4.12'
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation "junit:junit:$rootProject.ext.junitVersion"
 
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
-
-task copyFilesToAssets(type: Copy) {
-    from 'myFolder'
-    into 'src/main/assets'
-}
-
-preBuild.dependsOn(copyFilesToAssets)

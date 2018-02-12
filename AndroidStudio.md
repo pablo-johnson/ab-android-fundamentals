@@ -4,7 +4,9 @@ Android Bootcamp - Android Fundamentals
 ## Android Studio
 
 - Android
+
 - Entorno de Desarrollo (Android Studio)
+
 - Construir nuestra primera App en Android
 
 ### Android
@@ -60,13 +62,17 @@ Android Bootcamp - Android Fundamentals
 - Conociendo la carpeta "JAVA"
 
 	- Crear un clase Java
-
 	- Crear un activity
+
+  ![img](https://developer.android.com/studio/images/cnc-createclass_2-2_2x.png)
+
 
 - Conociendo la carpeta "res"
 
 	- Agregar  recursos , layouts, colors, strings
 	- Agregar imágenes
+
+  ![img](https://developer.android.com/studio/images/write/new-resource-dir_2-2_2x.png)
 
 
 ### Construir nuestra primera App en Android
@@ -74,6 +80,8 @@ Android Bootcamp - Android Fundamentals
 - Diseñando nuestras interfaces
 
 	- Crear una interfaz de usuario (UI)
+
+  ![img](https://developer.android.com/studio/images/write/layout-editor-callouts_2x.png)
 
 - Agregar acciones a la UI
 
