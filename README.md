@@ -29,6 +29,13 @@ Android Bootcamp - Android Fundamentals
 
 - Project Presentation I (1h)
 
+## Templates 
+
+En el curso vamos a trabajar sobre un proyecto base (template), este cuenta con las dependencias y librerías  necesarias para desarrollar un app.
+
+En la carpeta "templates", encontrarás un proyecto 'AppTemplate' que puedes usar para practicar, realizar ejercicios y crear tus aplicaciones Android.
+
+
 ## Referencias
 
 - Android Developers https://developer.android.com/index.html?hl=es-419
