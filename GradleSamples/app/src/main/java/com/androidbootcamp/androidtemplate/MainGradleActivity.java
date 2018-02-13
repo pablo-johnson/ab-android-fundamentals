@@ -39,12 +39,13 @@ public class MainGradleActivity extends AppCompatActivity {
     }
 
     private void showImageByAssets() {
-        imageView.setImageBitmap(bitmapFromAssets("cat_laptop.png"));
+        imageView.setImageBitmap(bitmapFromAssets("brainfriendly_logo.png"));
     }
 
     private void showProperties(){
         String storeFile=BuildConfig.STORE_FILE;
-        Toast.makeText(this,"storage File "+ storeFile,Toast.LENGTH_LONG).show();
+        String keyPassword=BuildConfig.KEY_PASSWORD;
+        Toast.makeText(this,"storage keypassword "+ keyPassword,Toast.LENGTH_LONG).show();
     }
 
     private Bitmap bitmapFromAssets(String fileName){

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AppTemplate</string>
+    <string name="button">Click</string>
+    <string name="msg_escribir_aqui">Escribir aqui</string>
 </resources>

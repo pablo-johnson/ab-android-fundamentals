@@ -22,6 +22,7 @@ android {
         myProps.load(new FileInputStream(file('../signing.properties')))
         debug{
             buildConfigField "String", "STORE_FILE",myProps['STORE_FILE']
+            buildConfigField "String", "KEY_PASSWORD",myProps['KEY_PASSWORD']
         }
         release {
             minifyEnabled false
@@ -67,7 +68,7 @@ dependencies {
 }
 
 task copyFilesToAssets(type: Copy) {
-    from 'myFolder'
+    from 'myfolder'
     into 'src/main/assets'
 }
 
