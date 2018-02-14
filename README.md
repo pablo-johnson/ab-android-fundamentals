@@ -30,6 +30,10 @@ Pesos
 
 <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail_2x.png?raw=true" height="300" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail-fixed_2x.png?raw=true" height="300" />
 
+- ListView & GridView
+
+<img src="https://developer.android.com/images/ui/listview.png?hl=es-419" height="300"/> <img src="https://developer.android.com/images/ui/gridview.png?hl=es-419" height="300"/>
+
 ### Layout resources 
 
 - Box Model 
