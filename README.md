@@ -36,13 +36,9 @@ Pesos
 
 ![img](http://porterwebsites.com/wp-content/uploads/2016/10/boxmodel-image.png)
 
-- Margin
+- Margin / Padding
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-margin.png?raw=true" height="360" />
-
-- Padding
-
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-padding.png?raw=true" height="360"/>
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-margin.png?raw=true" height="360" />   <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-padding.png?raw=true" height="360"/>
 
 - Hexadecimal colors
 
