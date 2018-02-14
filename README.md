@@ -12,7 +12,7 @@ Android Bootcamp - Android Fundamentals
 
 - LinearLayout
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/linearlayout.png?raw=true" height="320"/>
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/linearlayout.png?raw=true" height="300"/>
 
 Horizontal / Vertical
 
@@ -24,7 +24,7 @@ Pesos
 
 - RelativeLayout
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/relativelayout.png?raw=true" height="360" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/relativelayout.png?raw=true" height="300" />
 
 - ConstraintLayout
 
@@ -38,7 +38,7 @@ Pesos
 
 - Margin / Padding
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-margin.png?raw=true" height="360" />   <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-padding.png?raw=true" height="360"/>
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-margin.png?raw=true" height="320" />   <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-padding.png?raw=true" height="320"/>
 
 - Hexadecimal colors
 
