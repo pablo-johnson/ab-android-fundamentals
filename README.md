@@ -28,6 +28,21 @@ Android Bootcamp - Android Fundamentals
 - Notifications (2h)
 
 - Project Presentation I (1h)
+### Layouts
+
+![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/layoutparams.png?raw=true)
+
+- LinearLayout
+![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/linearlayout.png?raw=true)
+
+- RelativeLayout
+![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/relativelayout.png?raw=true)
+
+- ConstraintLayout
+![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail_2x.png?raw=true) ![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail-fixed_2x.png?raw=true)
+
+### Exercises
+
 
 ## Referencias
 
