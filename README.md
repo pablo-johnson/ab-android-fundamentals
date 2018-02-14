@@ -94,11 +94,11 @@ En esta tabla están todos los valores de 0-100 para la transparencia de colores
 
 - Ejercicio 3 - 4 
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true" height="360" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true" height="360"/>
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true" height="360" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout_tumblr.png?raw=true" height="360"/>
 
 - Ejercicio 5 - 6
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true" height="360" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-vine.png?raw=true"  height="360" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-flipboard.png?raw=true" height="360" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-vine.png?raw=true"  height="360" />
 
 - Ejercicio 7 - 8
 
@@ -112,6 +112,21 @@ En esta tabla están todos los valores de 0-100 para la transparencia de colores
 
 <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-pinterest.png?raw=true"  height="360" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-runkeeper.png?raw=true"  height="360" />
 
+- Ejercicio 12
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/exercice-login.png?raw=true"  height="360" />
+
+- Ejercicio 13
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/exercise-login-2.jpg?raw=true"  height="360" />
+
+- Ejercicio 14
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/exercise-login-3.jpg?raw=true"  height="360" />
+
+- Ejercicio 15
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/exercice-weight.png?raw=true" height="360" />
 
 ## Referencias
 
