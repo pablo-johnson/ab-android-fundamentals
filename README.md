@@ -42,11 +42,11 @@ Pesos
 
 - Margin
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/box-margin.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-margin.png?raw=true" height="360" />
 
 - Padding
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/box-padding.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/box-padding.png?raw=true" height="360"/>
 
 - Hexadecimal colors
 
@@ -98,53 +98,53 @@ En esta tabla están todos los valores de 0-100 para la transparencia de colores
 
 - Ejercicio 1
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login.png?raw=true" height="360"/>
 
 - Ejercicio 2
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-pinterest.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-pinterest.png?raw=true" height="360"/>
 
 - Ejercicio 3
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true" height="360" />
 
 - Ejercicio 4
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true" height="360"/>
 
 - Ejercicio 5
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true" height="320" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true" height="360" />
 
 
 - Ejercicio 6
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-vine.png?raw=true"  height="320" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-vine.png?raw=true"  height="360" />
 
 - Ejercicio 7
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-daily.png?raw=true"  height="320" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-daily.png?raw=true"  height="360" />
 
 - Ejercicio 8
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-dropbox.png?raw=true"  height="320" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-dropbox.png?raw=true"  height="360" />
 
 - Ejercicio 9
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-explore.png?raw=true"  height="320" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-explore.png?raw=true"  height="360" />
 
 - Ejercicio 10
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-nwply.png?raw=true"  height="320" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-nwply.png?raw=true"  height="360" />
 
 - Ejercicio 11
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-pinterest.png?raw=true"  height="320" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-pinterest.png?raw=true"  height="360" />
 
 
 - Ejercicio 12
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-runkeeper.png?raw=true"  height="320" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-runkeeper.png?raw=true"  height="360" />
 
 
 ## Referencias
