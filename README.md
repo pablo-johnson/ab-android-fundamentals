@@ -8,31 +8,31 @@ Android Bootcamp - Android Fundamentals
   
 ### Layouts
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/layoutparams.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/layoutparams.png?raw=true" height="320" />
 
 - LinearLayout
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/linearlayout.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/linearlayout.png?raw=true" height="320"/>
 
 Horizontal
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-horizontal.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-horizontal.png?raw=true" height="320"/>
 
 Vertical
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-vertical.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-vertical.png?raw=true" height="320"/>
 
 Pesos
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-weight-horizontal.png?raw=true) ![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layou-linear-weight-vertical.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-weight-horizontal.png?raw=true" height="320" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layou-linear-weight-vertical.png?raw=true" height="320" />
 
 - RelativeLayout
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/relativelayout.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/relativelayout.png?raw=true" height="320" />
 
 - ConstraintLayout
 
-![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail_2x.png?raw=true) ![img](https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail-fixed_2x.png?raw=true)
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail_2x.png?raw=true" height="320" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail-fixed_2x.png?raw=true" height="320" />
 
 ### Layout resources 
 
@@ -98,28 +98,54 @@ En esta tabla están todos los valores de 0-100 para la transparencia de colores
 
 - Ejercicio 1
 
-!(img)[https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login.png?raw=true]
+![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login.png?raw=true)
 
 - Ejercicio 2
 
-!(img)[https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-pinterest.png?raw=true]
+![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-pinterest.png?raw=true)
 
 - Ejercicio 3
 
-!(img)[https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true]
+![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true)
 
 - Ejercicio 4
 
-!(img)[https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true]
+![img](https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true)
 
 - Ejercicio 5
 
-!(img)[https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true]
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true" height="320" />
 
 
 - Ejercicio 6
 
-!(img)[https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-login-vine.png?raw=true]
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-vine.png?raw=true"  height="320" />
+
+- Ejercicio 7
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-daily.png?raw=true"  height="320" />
+
+- Ejercicio 8
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-dropbox.png?raw=true"  height="320" />
+
+- Ejercicio 9
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-explore.png?raw=true"  height="320" />
+
+- Ejercicio 10
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-nwply.png?raw=true"  height="320" />
+
+- Ejercicio 11
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-pinterest.png?raw=true"  height="320" />
+
+
+- Ejercicio 12
+
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-home-runkeeper.png?raw=true"  height="320" />
+
 
 ## Referencias
 
