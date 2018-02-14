@@ -14,17 +14,13 @@ Android Bootcamp - Android Fundamentals
 
 <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/linearlayout.png?raw=true" height="320"/>
 
-Horizontal
+Horizontal / Vertical
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-horizontal.png?raw=true" height="320"/>
-
-Vertical
-
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-vertical.png?raw=true" height="320"/>
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-horizontal.png?raw=true" height="360"/>  <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-vertical.png?raw=true" height="360"/>
 
 Pesos
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-weight-horizontal.png?raw=true" height="320" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layou-linear-weight-vertical.png?raw=true" height="360" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layout-linear-weight-horizontal.png?raw=true" height="360" />  <img src="https://github.com/learning-android-pe/training-resources/blob/master/samples/ui/layou-linear-weight-vertical.png?raw=true" height="360" />
 
 - RelativeLayout
 
@@ -32,7 +28,7 @@ Pesos
 
 - ConstraintLayout
 
-<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail_2x.png?raw=true" height="320" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail-fixed_2x.png?raw=true" height="320" />
+<img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail_2x.png?raw=true" height="300" /> <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/constraint-fail-fixed_2x.png?raw=true" height="300" />
 
 ### Layout resources 
 
