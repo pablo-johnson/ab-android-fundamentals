@@ -142,4 +142,8 @@ En esta tabla están todos los valores de 0-100 para la transparencia de colores
 
 - ConstraintLayout https://developer.android.com/training/constraint-layout/index.html
 
+- Recursos de diseño https://www.uplabs.com/
+
+- Iconos https://www.iconfinder.com/
+
 
