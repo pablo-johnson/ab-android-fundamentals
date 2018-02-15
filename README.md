@@ -5,7 +5,66 @@ Android Bootcamp - Android Fundamentals
 
   - Layout y Widgets
   - User Events
+
+### Overview
+
+  - Estructura de un elemento XML :
   
+```
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+    
+        <TextView android:text="Hello World!" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+```
+
+  - ID :
+  
+```
+      android:id="@+id/img"
+```
+
+```
+      <TextView
+            android:id="@+id/txtImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+```
+    
+  - Atributos :
+    
+```
+        android:layout_width="300dp"
+```
+    
+  - En el código podemos invocar a los elementos XML de la siguiente manera :
+  
+```
+      @Override
+      protected void onCreate(Bundle savedInstanceState) {
+          super.onCreate(savedInstanceState);
+          setContentView(R.layout.activity_main);
+      }
+```
+    
+```
+     private ImageView img;
+     private Button btnImg;
+     private TextView txtImg;
+
+     img= (ImageView)findViewById(R.id.img);
+     btnImg= (Button)findViewById(R.id.butImg);
+     txtImg = (TextView)findViewById(R.id.txtImg);
+```
+
 ### Layouts
 
 <img src="https://github.com/learning-android-pe/training-resources/blob/master/ui/layoutparams.png?raw=true" height="320" />
@@ -89,6 +148,30 @@ En esta tabla están todos los valores de 0-100 para la transparencia de colores
 ```
 
 - Shapes 
+Estos componentes te permiten dibujar formas , sin necesidad de usar recursos de diseño (imágenes) , puedes realizar cuadrados, círculos y elementos con bordes redondeados.
+
+Por ejemplo, si requerimos crear un rectángulo con un color sólido de fondo :
+```java
+    <?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle" >
+
+    <solid android:color="#58A023" />
+    </shape>
+```
+
+Ahora, si necesitamos agregarle bordes redondeandos
+
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/blueskye"></solid>
+    <corners android:radius="10dp"></corners>
+
+</shape>
+```
+
 
 ### Exercises
 
@@ -150,4 +233,5 @@ En esta tabla están todos los valores de 0-100 para la transparencia de colores
 
 - Iconos https://www.iconfinder.com/
 
+- Drawable Resources https://developer.android.com/guide/topics/resources/drawable-resource.html
 
