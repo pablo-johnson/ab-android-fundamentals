@@ -171,7 +171,9 @@ Ahora, si necesitamos agregarle bordes redondeandos
 
 </shape>
 ```
+Resultado :
 
+<img src="/images/shape1.png" />
 
 ### Exercises
 
